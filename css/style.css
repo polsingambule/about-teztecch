@@ -60,6 +60,15 @@ body {
     #menu-btn {
       display: none;
     }
+    h3.solution-btn {
+    background: #0caa9c;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 50px;
+    color: #fff;
+}
   }
   
   @media only screen and (max-width: 1000px) {
@@ -81,7 +90,7 @@ body {
       border: 1px solid white;
     }
     .menu-item:hover {
-      color: #5e3dee;
+      color: #0caa9c;
       background-color: white;
       font-size: 0.9rem;
       padding: 20px;
@@ -742,7 +751,7 @@ body {
         padding: 0rem 1rem;
     }
     .title-graphic img {
-        max-width: 40%;
+        max-width: 70%;
         clip-path: polygon(50% 0%, 63% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
         bottom: -40px;
     }
