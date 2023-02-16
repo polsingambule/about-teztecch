@@ -60,7 +60,8 @@ body {
     #menu-btn {
       display: none;
     }
-    h3.solution-btn {
+  }
+      h3.solution-btn {
     background: #0caa9c;
     width: 200px;
     margin: 0 auto;
@@ -69,8 +70,6 @@ body {
     border-radius: 50px;
     color: #fff;
 }
-  }
-  
   @media only screen and (max-width: 1000px) {
     #menu {
       max-width: 900px;
